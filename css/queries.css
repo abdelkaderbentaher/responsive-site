@@ -1,0 +1,103 @@
+@media (max-width: 1280px) {
+  .hero {
+    max-width: 110rem;
+  }
+
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  html {
+    width: 128rem;
+  }
+}
+@media (max-width: 425px) {
+  html {
+    max-width: 42.5rem;
+  }
+  .header {
+    display: block;
+    background-color: #edf9ff;
+    height: 30rem;
+    padding: 1rem;
+  }
+
+  .main-nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-size: 3rem;
+  }
+  .hero {
+    max-width: 41.5rem;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+  .hero-text-box {
+    max-width: 41.5rem;
+  }
+  .hero-description{
+    width: 41rem;
+  }
+  .btn.btn--full.margin-right-sm{
+    margin-bottom: 2rem;
+  }
+  .delivered-sessions{
+    flex-direction: column;
+    margin-top: 6rem;
+    padding-bottom: 1rem;
+  }
+  .container{
+    max-width : 42.5rem;
+    padding: 0;
+  }
+  .section-how{
+    padding: 0;
+  }
+  .subheading{
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .heading-secondary{
+    font-size: 3rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  .container.grid.grid-2-cols.grid--center-v{
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .step-img-box{
+    width:15rem 
+  }
+  .step-img{
+    width: 9em;
+  }
+  .section-testimonials{
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials{
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials-container{
+    padding: 5rem 1rem;
+  }
+  .gallery{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .gallery-item{
+    width: 100%;
+    height: auto;
+  }
+
+}
